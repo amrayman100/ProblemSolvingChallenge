@@ -13,9 +13,11 @@ taco cat\
 never odd or even
 
 
-## Theoretical Questions
+## Written Questions
 
 ### Question 2
+
+The linux command is as follows:
 
 mv original.txt changed.txt
 
