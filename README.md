@@ -1,9 +1,9 @@
 
 # Problem Solving Challenge
 
-The project contains an implementation of the challenge sheet using both Java and Go, test cases written for both. The algorithims and techniques used for both projects are the same with only small semantic differences depending on each languages details.
+The project contains an implementation of the challenge sheet using both Java and Go, test cases written for both projects. The algorithims and techniques used for both projects are the same with only small semantic differences depending on each languages's details.
 
-For the questions that do not require coding the solution will be here in the next section.
+The questions that do not require coding the solution will be here in the next section.
 
 For the palindrome questions I am handling the following strings as valid palindromes as they read the same way backwards and forwards
 
@@ -41,7 +41,7 @@ Space Complextity = O(N)
 
 ### Java ###
 
-The main package contains the answers and the tests are in the test package
+This is a maven java project with unit tests included for all the answers. The main package contains the answers and the tests are in the test package
 
 src/main/ and src/test
 
@@ -49,15 +49,16 @@ To run the tests you can either use Maven if it is installed or the Maven Wrappe
 
 First navigate to the java directory
 
-Maven wrapper:
-```
-./mvnw test
-
-```
-
 Maven:
 ```
 mvn test
+
+```
+
+
+Maven wrapper:
+```
+./mvnw test
 
 ```
 
@@ -69,7 +70,7 @@ Or using your IDE the tests are located in the tests package
 
 The answers are located in the questions folder and the tests are in the tests folder
 
-To run the tests run navigate to the go folder and run 
+To run the tests navigate to the go directory and run 
 
 ```
 go mod tidy
